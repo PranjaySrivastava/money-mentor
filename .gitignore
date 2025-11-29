@@ -1,0 +1,9 @@
+# backend deps
+gpt-backend/node_modules/
+
+# env file with secrets
+gpt-backend/.env
+
+# misc
+.DS_Store
+.vscode/

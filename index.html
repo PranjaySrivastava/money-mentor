@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Money Mentor AI Finance Helper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <div class="logo-circle">₹</div>
+        <div>
+          <h1>Money Mentor</h1>
+          <p class="tagline">
+            I am your money and finance guide.
+          </p>
+        </div>
+      </header>
+
+      <section class="hints">
+        <strong>Try asking:</strong>
+        <ul>
+          <li>
+            "I earn ₹25,000 per month. How should I split my money between needs, wants and savings?"
+          </li>
+          <li>"What is SIP? Explain like I'm in school."</li>
+          <li>"How do I create an emergency fund as a student?"</li>
+          <li>"Is taking a loan for a phone a good idea?"</li>
+        </ul>
+      </section>
+
+      <main id="chat-container" class="chat-container">
+        <!-- Messages will be inserted here by script.js -->
+      </main>
+
+      <form id="chat-form" class="chat-form">
+        <input
+          id="user-input"
+          type="text"
+          placeholder="Type your money question…"
+          autocomplete="off"
+          required
+        />
+        <button type="submit" id="send-btn">Ask</button>
+      </form>
+
+      <footer class="app-footer">
+        <small>
+          Money Mentor gives general education, not professional financial advice.
+        </small>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
