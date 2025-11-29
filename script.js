@@ -1,4 +1,4 @@
-const BACKEND_URL = "http://localhost:3000";
+const BACKEND_URL = "https://money-mentor-h42d.onrender.com";
 
 // 1. Creating DOM elements
 const chatForm = document.getElementById("chat-form");
